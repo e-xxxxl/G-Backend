@@ -3,7 +3,7 @@ const router = express.Router();
 const User = require("../models/User");
 
 // Four color groups
-const GROUPS = ["Red", "Blue", "Green", "Yellow"];
+const GROUPS = ["Red", "Blue", "Black", "Orange"];
 const MAX_PER_GROUP = 6;
 const MIN_PER_GROUP = 4;
 

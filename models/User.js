@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
   group: {
     type: String,
     required: true,
-    enum: ["Red", "Blue", "Green", "Yellow"],
+    enum: ["Red", "Blue", "Black", "Orange"],
   },
   createdAt: {
     type: Date,
