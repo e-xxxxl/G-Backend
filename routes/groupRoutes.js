@@ -4,7 +4,7 @@ const User = require("../models/User");
 
 // Four color groups
 const GROUPS = ["Red", "Blue", "Black", "Orange"];
-const MAX_PER_GROUP = 7;
+const MAX_PER_GROUP = 8;
 const MIN_PER_GROUP = 4;
 
 // Utility: Assign to a random group that is not full
